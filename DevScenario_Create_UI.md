@@ -1,4 +1,4 @@
-###**Dev Scenario Create UI (Destruction)**###
+**Dev Scenario Create UI (Destruction)**
 1)	Develop the create page with the header containing the title ,add the footer with two buttons
 2)	Create two sections 1) Application information 2) Selection criteria (with no content)
 3)	Create an input box in the application section, enhance it to a value help input box (value help only)
