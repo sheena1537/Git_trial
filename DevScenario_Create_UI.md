@@ -22,11 +22,11 @@
 	- Stay on the same page without keeping user input intact if No is pressed
 	- Don’t commit the changes and add the navigation functionality back to the main page if yes is pressed.
 19)	Add the function in the controller to handle click of the schedule button
-		1) Gather the data entered by the user from different sections and controls to form payload to pass to the destruction API
-		2) Call the API passing the data 
-		3) On successful display a message toast and navigate to the main screen
-		4) Add validations
-		- If the user has not selected the application group itself and clicks on schedule button throw up appropriate error message
-		- If the user has selected a valid application group but has left one or more of the mandatory fields under the selection criteria empty then an appropriate error message should be shown
-		- If there is any error thrown up during the API call then the appropriate error message should be displayed
+	- Gather the data entered by the user from different sections and controls to form payload to pass to the destruction API
+	- Call the API passing the data 
+	- On successful display a message toast and navigate to the main screen
+	- Add validations
+	  - If the user has not selected the application group itself and clicks on schedule button throw up appropriate error message
+	  - If the user has selected a valid application group but has left one or more of the mandatory fields under the selection criteria empty then an appropriate error message should be shown
+	  - If there is any error thrown up during the API call then the appropriate error message should be displayed
 
